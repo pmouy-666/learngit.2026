@@ -6,8 +6,7 @@ class people {
     }
 }
 
-var a = 1
-var b = 2
+function(a,b){
 
 var n = Number(prompt("请输入相应数字"))
 
@@ -15,4 +14,9 @@ for(var i = 0; i < n;i += 1) {
     a += 1
     b += 1
 }
+}
+
+var a = prompt()
+var b = prompt()
+
 console.log(a + b)
