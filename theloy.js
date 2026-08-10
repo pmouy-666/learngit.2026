@@ -6,7 +6,13 @@ class people {
     }
 }
 
-var a = char(prompt("请输入使用者的姓名："))
-var n = Number(prompt("请输入数量"))
+var a = 1
+var b = 2
 
-console.log(a,n)
+var n = Number(prompt("请输入相应数字"))
+
+for(var i = 0; i < n;i += 1) {
+    a += 1
+    b += 1
+}
+console.log(a + b)
