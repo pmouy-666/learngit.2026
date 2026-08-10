@@ -5,3 +5,8 @@ class people {
 
     }
 }
+
+var a = char(prompt("请输入使用者的姓名："))
+var n = Number(prompt("请输入数量"))
+
+console.log(a,n)
